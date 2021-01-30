@@ -1,0 +1,89 @@
+.signup{
+    width: 400px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 150px auto;
+    animation: signup 1s ease-out forwards;
+}  
+
+.heading_signup{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    animation: heading 1s ease-in-out forwards; 
+ }
+
+.email{
+    display: block;
+    width: 90%;
+    margin: 20px 10px;
+    height: 25px;
+    border-radius: 6px;
+    padding: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: large;
+    text-align: center;
+}
+
+.password{
+    display: block;
+    width: 90%;
+    margin: 20px 10px;
+    height: 25px;
+    border-radius: 6px;
+    padding: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: large;
+    text-align: center;
+}
+
+.button{
+    display: block;
+    width: 50%;
+    height: 35px;
+    margin: 10px 100px;
+    align-items: center;
+    border-radius: 6px;
+    padding: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    background-color: darkgreen;
+}
+
+@keyframes signup {
+    0%{
+        opacity: 0;
+        transform: translateY(-70%);
+    }
+    25%{
+        opacity: 0.25;
+        transform: translateY(-30%);
+    }
+    50%{
+        opacity: 0.75;
+        transform: translateY(-10%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+@keyframes heading {
+    0%{
+        opacity: 0.2;
+    }
+    50%{
+        opacity: 0.6;
+    }
+    100%{
+        opacity: 1;
+    }
+}

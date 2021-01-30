@@ -1,0 +1,92 @@
+.login{
+    width: 400px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 150px auto;
+    background-color: royalblue;
+    animation: login 1s ease-out forwards;
+    border-radius: 35px;
+} 
+
+.heading_login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    animation: heading 1s ease-in-out forwards; 
+    color: darkgreen ;
+}
+
+.email{
+    display: block;
+    width: 90%;
+    margin: 20px 10px;
+    height: 25px;
+    padding: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: large;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.password{
+    display: block;
+    width: 90%;
+    margin: 20px 10px;
+    height: 25px;
+    border-radius: 6px;
+    padding: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: large;
+    text-align: center;
+}
+
+.button{
+    display: block;
+    width: 50%;
+    height: 35px;
+    margin: 10px 100px;
+    align-items: center;
+    border-radius: 6px;
+    padding: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    background-color: darkgreen;
+}
+
+@keyframes login {
+    0%{
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    25%{
+        opacity: 0.25;
+        transform: translateY(-50%);
+    }
+    50%{
+        opacity: 0.75;
+        transform: translateY(-20%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+@keyframes heading {
+    0%{
+        opacity: 0.2;
+    }
+    50%{
+        opacity: 0.6;
+    }
+    100%{
+        opacity: 1;
+    }
+}

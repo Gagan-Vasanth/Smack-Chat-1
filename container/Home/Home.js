@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { getRealTimeConversations, getRealTimeUser, updateMessage } from '../../actions/user.action';
 import Layout from '../../components/Layout/Layout';
 import './Home.css';
-import $ from 'jquery';
+
 
 const Users = (props) => {
 
